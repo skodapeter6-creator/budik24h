@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <title>BUDÍK 24H</title>
+  <style>
+    :root{
+      --bg:#0b0b0b;
+      --card:#171717;
+      --card2:#202020;
+      --text:#ffffff;
+      --muted:#b9b9b9;
+      --orange:#ff9123;
+      --green:#32d74b;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:linear-gradient(180deg,#080808,#111);
+      color:var(--text);
+    }
+    .wrap{
+      width:min(980px,92%);
+      margin:auto;
+    }
+    header{
+      padding:48px 0 28px;
+      text-align:center;
+    }
+    h1{
+      margin:0;
+      color:var(--orange);
+      font-size:clamp(36px,7vw,68px);
+      letter-spacing:1px;
+    }
+    .subtitle{
+      margin:12px auto 0;
+      color:var(--muted);
+      max-width:720px;
+      font-size:18px;
+      line-height:1.5;
+    }
+    .status{
+      display:inline-block;
+      margin-top:18px;
+      padding:8px 14px;
+      border-radius:999px;
+      background:#12351b;
+      color:#bff7ca;
+      font-weight:bold;
+    }
+    .hero{
+      margin:26px 0;
+      padding:28px;
+      border-radius:20px;
+      background:var(--card);
+      border:1px solid #292929;
+      box-shadow:0 16px 50px rgba(0,0,0,.35);
+      text-align:center;
+    }
+    .hero h2{
+      margin-top:0;
+      font-size:28px;
+    }
+    .download{
+      display:inline-block;
+      margin-top:12px;
+      padding:16px 26px;
+      border-radius:14px;
+      background:var(--orange);
+      color:#111;
+      text-decoration:none;
+      font-size:18px;
+      font-weight:800;
+    }
+    .download:hover{filter:brightness(1.08)}
+    .note{
+      margin-top:12px;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:16px;
+      margin:24px 0;
+    }
+    .card{
+      background:var(--card2);
+      border:1px solid #2d2d2d;
+      border-radius:16px;
+      padding:20px;
+    }
+    .card h3{
+      margin:0 0 9px;
+      color:var(--orange);
+    }
+    .card p{
+      margin:0;
+      color:#ddd;
+      line-height:1.5;
+    }
+    .langs{
+      text-align:center;
+      margin:28px 0;
+      color:var(--muted);
+      font-weight:bold;
+    }
+    footer{
+      margin-top:38px;
+      border-top:1px solid #242424;
+      padding:26px 0 38px;
+      text-align:center;
+      color:#888;
+      font-size:14px;
+    }
+    @media(max-width:700px){
+      .grid{grid-template-columns:1fr}
+      .hero{padding:22px 16px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>BUDÍK 24H</h1>
+      <div class="subtitle">
+        Aplikácia pre osobný inteligentný budík 24H.
+        Ovládanie budíkov, zvukov, médií, scén, Wi‑Fi a nastavení cez Bluetooth.
+      </div>
+      <div class="status">✓ APLIKÁCIA HOTOVÁ</div>
+    </header>
+
+    <section class="hero">
+      <h2>Stiahnuť aplikáciu</h2>
+      <p>Android aplikácia pre BUDÍK 24H.</p>
+      <a class="download" href="BUDIK24H.apk" download>STIAHNUŤ APK</a>
+      <div class="note">
+        Ak Android zobrazí upozornenie na inštaláciu z neznámeho zdroja,
+        povoľ inštaláciu pre prehliadač, z ktorého APK sťahuješ.
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Budíky</h3>
+        <p>Nastavenie času, dní, aktivácie a hlasitosti alarmov.</p>
+      </div>
+      <div class="card">
+        <h3>Zvuky a médiá</h3>
+        <p>Prehrávanie zvukov, MP3 a správa médií na microSD.</p>
+      </div>
+      <div class="card">
+        <h3>Scény</h3>
+        <p>Náhľad a výber vlastných pozadí priamo z aplikácie.</p>
+      </div>
+      <div class="card">
+        <h3>Wi‑Fi</h3>
+        <p>Vyhľadanie sietí, pripojenie a zobrazenie stavu spojenia.</p>
+      </div>
+      <div class="card">
+        <h3>Nastavenia</h3>
+        <p>Jazyk, jas, automatický jas, scéna a poloha budíka.</p>
+      </div>
+      <div class="card">
+        <h3>Informácie</h3>
+        <p>Stav spojenia, verzia aplikácie a základné informácie o projekte.</p>
+      </div>
+    </section>
+
+    <div class="langs">SK • IT • DE • EN</div>
+
+    <footer>
+      BUDÍK 24H • OSOBNÝ INTELIGENTNÝ BUDÍK 24H<br>
+      PETER ŠKODA
+    </footer>
+  </div>
+</body>
+</html>
